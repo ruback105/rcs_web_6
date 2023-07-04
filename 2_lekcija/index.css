@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generic styles */
+#logo {
+  width: 100px;
+  height: 50px;
+}
+
+h5 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+p,
+li {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Generic styles end */
+
+/* Specifify */
+
+#experience-section li {
+  color: orange;
+}
+
+.section li {
+  color: yellow;
+}
+
+section li {
+  color: green;
+}
+
+li {
+  color: red;
+  list-style: none;
+}
+
+/* Flexbox */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0px 10px;
+}
+/* Flexbox end */
+
+/* h2 {
+  color: red;
+}
+
+label {
+  font-weight: 700;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+#logo {
+  width: 100px;
+  height: 50px;
+}
+
+footer nav {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+footer > p {
+  font-weight: 700;
+  font-size: 20px;
+  font-style: italic;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+li.work-experience {
+  color: red;
+} */

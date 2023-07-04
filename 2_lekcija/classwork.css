@@ -1,0 +1,15 @@
+h1 {
+  color: blue;
+}
+
+p {
+  color: green;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+#special {
+  font-size: 18px;
+}
