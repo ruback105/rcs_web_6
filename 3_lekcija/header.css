@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background: #5048cf;
+  background: linear-gradient(90deg, #5048cf 0%, #240979 47%, #138198 100%);
+}
+
+header img#logo {
+  width: 70px;
+  height: 50px;
+  border-radius: 6px;
+}
+
+header div.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+header div.logo-wrapper h2 {
+  margin-left: 8px;
+  color: #fff;
+}
+
+header nav.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+header nav.nav ul li {
+  margin: 0 10px;
+}
+
+header nav.nav ul li a {
+  color: white;
+}
