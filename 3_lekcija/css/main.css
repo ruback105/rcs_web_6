@@ -1,0 +1,74 @@
+main {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px 0;
+  margin-top: 60px;
+}
+
+main section.section {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+main section.section .section-title {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+main #hero-section {
+  height: 100vh;
+  background-image: url("../assets/1_Nature_1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+main #hero-section div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(204, 204, 204, 0.5);
+  padding: 20px;
+  border-radius: 6px;
+}
+
+main #about-section .description {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #323030;
+  font-style: italic;
+}
+
+main #experience-section ul {
+  margin-left: 20px;
+}
+
+main #experience-section ul li.work-experience {
+  list-style: circle;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+main #contact-section {
+  min-width: 400px;
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+main #contact-section form.form-wrapper > div {
+  display: flex;
+  flex-direction: column;
+}
+
+main #contact-section form.form-wrapper > div input,
+main #contact-section form.form-wrapper > div textarea {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  border-width: 0px;
+  background: #e6eff6;
+}

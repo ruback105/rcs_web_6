@@ -5,6 +5,10 @@ header {
   padding: 5px 10px;
   background: #5048cf;
   background: linear-gradient(90deg, #5048cf 0%, #240979 47%, #138198 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 header img#logo {
