@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin: 10px;
+  max-width: 50vw;
+}
+
+fieldset {
+  padding: 10px;
+  border-radius: 6px;
+}
+
+fieldset > div {
+  margin: 10px 0;
+}
+
+button[type="submit"] {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+input.error {
+  border-color: red;
+  border-radius: 6px;
+}
+
+p.error {
+  color: red;
+  font-size: 12px;
+}

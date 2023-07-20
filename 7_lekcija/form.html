@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <form novalidate>
+      <fieldset>
+        <legend>User information</legend>
+
+        <div>
+          <label for="username">Your name:</label>
+          <input type="text" name="username" />
+        </div>
+
+        <div>
+          <label for="email">Your email:</label>
+          <input type="email" name="email" />
+        </div>
+
+        <div>
+          <label for="age">Your age:</label>
+          <input type="number" name="age" />
+        </div>
+
+        <div>
+          <label for="hobby">Your hobby:</label>
+          <input type="text" name="hobby" />
+        </div>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+    <script src="validation.js"></script>
+  </body>
+</html>
